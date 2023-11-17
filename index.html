@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olahraga Sepeda</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+        <div class="logo">
+            <img src="Assets/logo2.png" alt="logo2">
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a href="#header">Homepage</a></li>
+                <li><a href="#Contents">Content</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </a></li>
+            </ul>
+        </nav>
+    
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+    </div>
+        <div class="header">
+            <h1 class="header-title">Bicycle <br> for <br> Health</h1>
+            <img src="Assets/dom2.jpg" alt="">
+        </div>
+  </header>
+  
+
+  <!-- Contents -->
+  <section id='Contents'>
+    <div class="Contents main-content">
+        <h3 class="pre-title">Benefit</h3>
+        <h1 class="section-title Contents-title">Exercise Bicycle For Health</h1>
+
+        <div class="grid-3">
+            <!-- Contents -->
+            <div class="Contents">
+                <div class="Contents-icon">
+                    <img src="Assets/Image1.jpeg" alt="Image1">
+                </div>
+                <h4>Improve Physical Fitness</h4>
+                <p>
+                    Cycling activities involve many body muscles, including large muscles such as the thighs and legs. This helps build strength and endurance.
+                </p>
+            </div>
+            
+            <!-- Contents 2 -->
+            <div class="Contents">
+                <div class="Contents-icon">
+                    <img src="Assets/Image2.jpeg" alt="Image2">
+                </div>
+                <h4>Improves Balance and Coordination</h4>
+                <p>
+                    Cycling activities involve body and brain coordination, helping to improve balance and motor coordination.
+                </p>
+            </div>
+            
+            <!-- Contents 3 -->
+            <div class="Contents">
+                <div class="Contents-icon">
+                    <img src="Assets/Image3.jpeg" alt="Image3">
+                </div>
+                <h4>Maintain Bone Health</h4>
+                <p>
+                    Cycling is a light activity that supports bone health without placing excessive stress on the joints.
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- End Of Contents -->
+
+<section id="order">
+    <div class="order-container">
+        <h1>Order Your Bicycle</h1>
+        <div class="order-steps" id="orderSteps">
+            <div class="order-step active">
+                <img src="Assets/Bike1.jpeg" alt="Bike 1">
+                <h2>Road Bike</h2>
+                <p>Designed for cycling on roads or asphalt tracks. It is light, aerodynamic, and has a sitting position that tends to bend forward.</p>
+            </div>
+            <div class="order-step">
+                <img src="Assets/Bike2.jpeg" alt="Bike 2">
+                <h2>Fixed Gear</h2>
+                <p>OA bicycle with one speed and wheels that are directly connected to the pedals. Popular among city bike lovers and cyclists looking for a simple riding experience.</p>
+            </div>
+            <div class="order-step">
+                <img src="Assets/Bike3.jpeg" alt="Bike 3">
+                <h2>Road Bike</h2>
+                <p>Designed for cycling on roads or asphalt tracks. It is light, aerodynamic, and has a sitting position that tends to bend forward..</p>
+            </div>
+        </div>
+        <button onclick="nextStep()">Next Step</button>
+    </div>
+</section>
+
+<section id="about">
+    <div class="about-container">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="Assets/logo2.png" alt="About Image">
+            </div>
+            <div class="about-text-container">
+                <div class="about-text">
+                    <h1>About Us</h1>
+                    <p>Welcome to our bicycle store! We are passionate about providing high-quality bicycles to enhance your health and fitness.</p>
+                    <p>Our mission is to make cycling accessible to everyone and promote a healthy lifestyle. Whether you're a beginner or an experienced rider, we have the perfect bike for you.</p>
+                    <p>Explore our diverse collection of bicycles and enjoy the benefits of cycling for physical fitness, balance, coordination, and overall well-being.</p>
+                    <p>Thank you for choosing us as your cycling partner. Let's ride towards a healthier and happier life!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact main-container">
+        <div class="contact-left">
+            <form class="contact-form" action="">
+                <div>
+                    <input type="text" placeholder="Name" name="name">
+                </div>
+                <div>
+                    <input type="text" placeholder="Email" email="email">
+                </div>
+                <div>
+                    <textarea 
+                    name="Message" 
+                    id="Message" 
+                    placeholder="Message"
+                    cols="30" 
+                    rows="10"
+                    ></textarea>
+                </div>
+                <div>
+                    <button class="btn-sumbit">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-right">
+            <!-- contact item 1 -->
+            <div class="contact-item">
+                <div class="contact-item-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"
+                        />
+                    </svg>
+                </div>
+                <div class="contact-item-detail">
+                    <h4>Address</h4>
+                    <p>Griya Pesona Kaladawa, Bloc B23</p>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- footter -->
+<footer>
+    <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/faisal-arrahman-pratama-280b15248/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"
+                />
+            </svg>
+        </a>
+
+        <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z"
+                /></svg>
+        </a>
+
+        <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"
+                />
+            </svg>
+        </a>
+    </div>
+    <p>&#169; 2023 - Made by Faisal Arrahman Pratama</p>
+</footer>
+<!-- end of footter -->
+
+</body>
+</html>
